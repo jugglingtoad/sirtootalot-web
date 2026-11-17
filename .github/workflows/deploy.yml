@@ -12,18 +12,3 @@ jobs:
         run: npm install -g firebase-tools
       - name: Deploy to Firebase
         run: firebase deploy --only hosting --token "${{ secrets.FIREBASE_TOKEN }}"
-``` [1, 2]
-
-4. Save the file [2].
-
----
-
-### Step 4: Push to GitHub!
-In your VS Code terminal, commit and push your new files to your repository [2]:
-```bash
-git add .
-git commit -m "Add automatic deploy workflow"
-git push origin main
-``` [2]
-
-**You are done!** GitHub will immediately pick up this file, run the action, and deploy your site to **sirtootalot.web.app** [1, 2]. Every push you make to your `main` branch from now on will automatically update your live site [1, 2]!

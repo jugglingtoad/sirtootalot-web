@@ -1,5 +1,6 @@
 {
 	"hosting": {
+		"site": "sirtootalot",
 		"public": ".",
 		"ignore": [
 			"firebase.json",

@@ -11,4 +11,4 @@ jobs:
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
       - name: Deploy to Firebase
-        run: firebase deploy --only hosting --project sirtootalot--token "${{ secrets.FIREBASE_TOKEN }}"
+        run: firebase deploy --only hosting --project sirtootalot --token "${{ secrets.FIREBASE_TOKEN }}"
